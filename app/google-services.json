@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1005011549382",
+    "project_id": "workfree-9f3a0",
+    "storage_bucket": "workfree-9f3a0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005011549382:android:0c7a48088d7b233c0febc7",
+        "android_client_info": {
+          "package_name": "com.workfree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005011549382-grq486gnsdifg05790nr09tbommim391.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1aCQxYUkph1b6uz2LjtCOkSEKOkucdCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005011549382-grq486gnsdifg05790nr09tbommim391.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

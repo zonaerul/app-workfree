@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_login"
+        android:textSize="30sp"
+        android:layout_marginTop="90dp"
+        android:textAllCaps="true"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/ubuntu_bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text_login"/>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_below="@id/text_login"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:paddingLeft="15dp"
+            android:background="@drawable/edittext_input"
+            android:drawableStart="@drawable/outline_email_24"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/email_input"
+            android:inputType="textEmailAddress"
+            android:drawablePadding="10dp"
+            android:hint="Email"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:background="@drawable/edittext_input"
+            android:drawableStart="@drawable/baseline_lock_open_24"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/pass_input"
+            android:inputType="textPassword"
+            android:drawablePadding="10dp"
+            android:hint="Password"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_app"
+            android:id="@+id/btn_submit"
+            android:text="Masuk"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Atau login dengan"
+            android:textColor="@color/white"/>
+
+        <LinearLayout
+            android:id="@+id/linear_login_google"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_radius_30"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/google"/>
+            <TextView
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/medium"
+                android:textSize="13sp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masuk dengan google"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

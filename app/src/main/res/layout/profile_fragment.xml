@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Profile"
+                android:fontFamily="@font/ubuntu_bold"/>
+
+            <ImageView
+                android:id="@+id/btn_edit"
+                android:layout_marginRight="15dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_edit_square_24"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_below="@id/toolbar"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/ic_users"/>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:id="@+id/user_profile"
+                    android:text="@string/user"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="14sp"
+                    android:id="@+id/email_profile"
+                    android:textColor="@color/black"
+                    android:text="loading..."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="14sp"
+                    android:id="@+id/phone_user"
+                    android:textColor="@color/black"
+                    android:text=""/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="14sp"
+                    android:id="@+id/lokasi_profile"
+                    android:textColor="@color/black"
+                    android:text=""/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/ubuntu_bold"/>
+
+        <TextView
+            android:layout_marginTop="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading..."
+            android:textSize="18sp"
+            android:id="@+id/user_name_profile"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/medium"/>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tempat_tanggal_lahir"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/ubuntu_bold"/>
+
+        <TextView
+            android:layout_marginTop="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading..."
+            android:textSize="18sp"
+            android:id="@+id/tgl_profile"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/medium"/>
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendidikan"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/ubuntu_bold"/>
+
+        <TextView
+            android:layout_marginTop="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading..."
+            android:textSize="18sp"
+            android:id="@+id/pendidikan_profile"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/medium"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pengalaman_magang"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/ubuntu_bold"/>
+
+        <TextView
+            android:layout_marginTop="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading..."
+            android:textSize="18sp"
+            android:id="@+id/magang_profile"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/medium"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minat_skill"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/ubuntu_bold"/>
+
+        <TextView
+            android:layout_marginTop="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loading..."
+            android:textSize="18sp"
+            android:id="@+id/minat_skill_profile"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/medium"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">workfree</string>
+    <string name="text_login">Login</string>
+    <string name="default_web_client_id">1005011549382-grq486gnsdifg05790nr09tbommim391.apps.googleusercontent.com</string>
+    <string name="user">Budi Setiawan</string>
+    <string name="text_peluang">Temukan Peluang Mu!</string>
+    <string name="home_bottom_navi">Beranda</string>
+    <string name="search_bottom_navi">Cari</string>
+    <string name="profile_bottom_navi">Profile</string>
+    <string name="test_gmail_com">test@gmail.com</string>
+    <string name="_08676767">08676767</string>
+    <string name="indonesia_riau_pekan_baru">Indonesia Riau, Pekan Baru</string>
+    <string name="tempat_tanggal_lahir">Tempat, Tanggal Lahir</string>
+    <string name="pekan_baru_21_februari_2003">Pekan baru, 21 Februari 2003</string>
+    <string name="usia">Usia</string>
+    <string name="_21">21</string>
+    <string name="sarjana_s1_teknik_informatika">Sarjana S1(Teknik Informatika)</string>
+    <string name="pengalaman_magang">Pengalaman Magang</string>
+    <string name="magang_di_pt_telkomsel">Magang di PT. Telkomsel</string>
+    <string name="minat_skill">Minat/Skill</string>
+    <string name="update_profile_text">Edit Profile</string>
+</resources>

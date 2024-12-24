@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update_profile_text"
+                android:textSize="20sp"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ubuntu_bold"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/text_login"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+        <LinearLayout
+            android:layout_below="@id/toolbar"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:fontFamily="@font/medium"
+                android:text="Nama"/>
+            <EditText
+                android:paddingLeft="15dp"
+                android:background="@drawable/edittext_input"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:id="@+id/name_input"
+                android:inputType="text"
+                android:drawablePadding="10dp"
+                android:hint="Name"/>
+
+            <TextView
+                android:gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:fontFamily="@font/medium"
+                android:text="Email"/>
+            <EditText
+                android:layout_marginTop="5dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/edittext_input"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:id="@+id/email_input"
+                android:inputType="textEmailAddress"
+                android:drawablePadding="10dp"
+                android:hint="Email"/>
+
+            <TextView
+                android:gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:fontFamily="@font/medium"
+                android:text="Pendidikan"/>
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/edittext_input"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:id="@+id/pendidikan_input"
+                android:inputType="textEmailAddress"
+                android:drawablePadding="10dp"
+                android:hint="Pendidikan Terakhir"/>
+
+
+            <TextView
+                android:gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:fontFamily="@font/medium"
+                android:text="Phone"/>
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/edittext_input"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:id="@+id/phone_input"
+                android:inputType="number"
+                android:drawablePadding="10dp"
+                android:hint="Phone"/>
+
+            <TextView
+                android:gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:fontFamily="@font/medium"
+                android:text="Location"/>
+            <EditText
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/edittext_input"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:id="@+id/location_input"
+                android:inputType="text"
+                android:drawablePadding="10dp"
+                android:hint="Location"/>
+
+            <TextView
+                android:gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:fontFamily="@font/medium"
+                android:text="Tempat. Tanggal Lahir"/>
+            <EditText
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/edittext_input"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:id="@+id/tanggal_lahir_input"
+                android:inputType="text"
+                android:drawablePadding="10dp"
+                android:hint="Tempat, Tanggal Lahir"/>
+
+            <TextView
+                android:gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:fontFamily="@font/medium"
+                android:text="Magang"/>
+            <EditText
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/edittext_input"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:id="@+id/magang_input"
+                android:inputType="text"
+                android:drawablePadding="10dp"
+                android:hint="Magang"/>
+
+            <TextView
+                android:gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:fontFamily="@font/medium"
+                android:text="Skil"/>
+            <EditText
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/edittext_input"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:id="@+id/skill_input"
+                android:inputType="text"
+                android:drawablePadding="10dp"
+                android:hint="Skill"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_app"
+                android:id="@+id/btn_submit"
+                android:text="Simpan"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
